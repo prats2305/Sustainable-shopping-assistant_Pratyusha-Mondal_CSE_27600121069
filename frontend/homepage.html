@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="homepage">
+  <nav class="navbar">
+    <input type="text" id="searchInput" placeholder="Search for products...">
+    <button onclick="searchProducts()">Search</button>
+    <button onclick="navigateTo('impact.html')">Impact Tracker</button>
+  </nav>
+
+  <div id="product-list" class="product-list">
+    <!-- Products will be dynamically added here -->
+  </div>
+
+  <div id="search-results" class="search-results">
+    <!-- Search results will appear here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
